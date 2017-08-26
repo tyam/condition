@@ -1,0 +1,22 @@
+{
+    "name": "tyam/condition",
+    "description": "php condition",
+    "keywords": ["condition"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/tyam/condition",
+    "authors": [
+      {
+        "name": "YAMADA, Tetsuo",
+        "email": "tyam001@gmail.com"
+      }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+      "psr-0": {
+        "tyam\\condition\\": "src/"
+      }
+    }
+}
